@@ -8,9 +8,7 @@ const Product = () => {
   });
   const navigate = useNavigate();
   const onAddtoCart = () => {
-
-   
-    navigate("/cart", { state: {item:product} });
+    navigate("/cart", { state: { item: product } });
   };
 
   return (
